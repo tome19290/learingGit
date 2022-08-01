@@ -1,0 +1,8 @@
+- name: Install Apache on Web server
+  hosts: all
+  tasks:
+    - name: Install Apache server
+      package:
+        state: present
+        update_cache: yes
+      become: true 

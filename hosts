@@ -1,0 +1,5 @@
+[localserver]
+local ansible-host=ec2-54-82-53-85.compute-1.amazonaws.com ansible_connection=local
+[servers]
+web1 ansible_host=ec2-3-88-39-201.compute-1.amazonaws.com
+web2 ansible_host=ec2-user@ec2-34-203-42-2.compute-1.amazonaws.com
